@@ -1,0 +1,21 @@
+body {
+    background: url(assets/matrix2.gif)
+}
+
+h1 {
+    height: 50px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+    background-color: white;
+}
+
+#main {
+    height: 600px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    background-color: white;
+}
