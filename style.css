@@ -57,8 +57,12 @@ h2 {
 }
 
 p {
+    width: 200px;
     color: white;
     font-size: 32px;
     text-align: center;
     padding-top: 20px;
-}
+    padding-bottom: 20px;
+    margin-left: 40%;
+
+    }

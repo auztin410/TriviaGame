@@ -6,41 +6,39 @@ $("#redpill").on("click", function() {
     $("#main").html("<h2>You have chosen poorly</h2> <p>Go back into the real world you noob.</p>")
 })
 
+
+
 // setTimeout(secondScreen, 30000);
 
 function firstScreen() {
-$("#main").html("") 
+$("#main").html("<h2>What's the main protagonist's nickname in Hackers?</h2> <h3></h3> <p id='wrong'>Acid Burn</p> <p id='wrong'>Lord Nikon</p> < id='right'>Crash Override</p> <p id='wrong'>Cereal Killer</p>") 
 }
 
 function secondScreen() {
-    $("#main").html("")
+    $("#main").html("<h2></h2> <h3></h3> <p></p> <p></p> <p></p> <p></p>")
 }
 
 function thirdScreen() {
-    $("#main").html("")
+    $("#main").html("<h2></h2> <h3></h3> <p></p> <p></p> <p></p> <p></p>")
 }
 
 function fourthScreen() {
-    $("#main").html("")
+    $("#main").html("<h2></h2> <h3></h3> <p></p> <p></p> <p></p> <p></p>")
 }
 
 function fifthScreen() {
-    $("#main").html("")
+    $("#main").html("<h2></h2> <h3></h3> <p></p> <p></p> <p></p> <p></p>")
 }
 
 function sixthScreen() {
-    $("#main").html("")
+    $("#main").html("<h2></h2> <h3></h3> <p></p> <p></p> <p></p> <p></p>")
 }
 function seventhScreen() {
-    $("#main").html("")
+    $("#main").html("<h2></h2> <h3></h3> <p></p> <p></p> <p></p> <p></p>")
 }
 function eigthScreen() {
-    $("#main").html("")
+    $("#main").html("<h2></h2> <h3></h3> <p></p> <p></p> <p></p> <p></p>")
 }
 function ninthScreen() {
-    $("#main").html("")
-}
-
-function tenthScreen() {
-    $("#main").html("")
+    $("#main").html("<h2></h2> <h3></h3> <p></p> <p></p> <p></p> <p></p>")
 }
