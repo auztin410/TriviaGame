@@ -42,7 +42,7 @@ $("#bluepill").on("click", function () {
 
 
 $("#redpill").on("click", function () {
-    $("#main").html("<h2>You have chosen poorly</h2> <p>Go back into the real world you noob.</p> <img id='noob' src='assets/noob.jpg' alt='noob'>")
+    $("#main").html("<h2>You have chosen poorly</h2> <h3>Go back into the real world you noob.</h3> <img id='noob' src='assets/noob.jpg' alt='noob'>")
 })
 
 
