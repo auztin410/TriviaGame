@@ -14,6 +14,7 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 40px;
     text-align: center;
+    -webkit-animation:colorchange 10s infinite alternate;
     
 }
 
@@ -79,5 +80,64 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 40%;
-
     }
+
+    #noob {
+        margin-left: 38%;
+    }
+
+    @-webkit-keyframes colorchange {
+        0% {
+          
+          color: #fff8ff;
+        }
+        
+        10% {
+          
+          color: #5dc07f ;
+        }
+        
+        20% {
+          
+          color: #000000 ;
+        }
+        
+        30% {
+          
+          color: #0c6824 ;
+        }
+        
+        40% {
+          
+          color: #fff8ff ;
+        }
+        
+        50% {
+          
+          color: #5dc07f ;
+        }
+        
+        60% {
+          
+          color: #0c6824 ;
+        }
+        
+        70% {
+          
+          color:  #000000;
+        }
+        80% {
+       
+          color: #5dc07f ;
+        }
+        
+        90% {
+       
+          color: #fff8ff ;
+        }
+        
+        100% {
+          
+          color: #0c6824 ;
+        }
+      }

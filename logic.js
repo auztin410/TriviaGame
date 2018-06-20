@@ -3,6 +3,7 @@ var wrongAnswers = 0;
 var unanswered = 0;
 
 
+
 $("#bluepill").on("click", function () {
     $("#main").html("<h2> Who is the chosen one? </h2> <h3 id='timeLeft'></h3> <p id='correct'>Neyo</p> <p class='wrong'>Morpheus</p> <p class='wrong'>Agent Smith</p> <p class='wrong'>Bob</p>")
 
@@ -41,7 +42,7 @@ $("#bluepill").on("click", function () {
 
 
 $("#redpill").on("click", function () {
-    $("#main").html("<h2>You have chosen poorly</h2> <p>Go back into the real world you noob.</p>")
+    $("#main").html("<h2>You have chosen poorly</h2> <p>Go back into the real world you noob.</p> <img id='noob' src='assets/noob.jpg' alt='noob'>")
 })
 
 
