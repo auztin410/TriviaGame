@@ -5,7 +5,7 @@ var unanswered = 0;
 
 
 $("#bluepill").on("click", function () {
-    $("#main").html("<h2> Who is the chosen one? </h2> <h3 id='timeLeft'></h3> <p id='correct'>Neyo</p> <p class='wrong'>Morpheus</p> <p class='wrong'>Agent Smith</p> <p class='wrong'>Bob</p>")
+    $("#main").html("<h2> Who is the chosen one? </h2> <h3 id='timeLeft'></h3> <p id='correct'>Neo</p> <p class='wrong'>Morpheus</p> <p class='wrong'>Agent Smith</p> <p class='wrong'>Bob</p>")
 
     var timeLeft = 30;
     var elem = document.getElementById('timeLeft');
